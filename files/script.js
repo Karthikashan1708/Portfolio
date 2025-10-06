@@ -33,7 +33,7 @@ window.onscroll = () => {
 
 /*========== Typing animation in home page ==========*/
 var typed = new Typed(".text", {
-    strings: ["Web Developer", "Frontend Developer"],
+    strings: ["Web Developer", "Frontend Developer", "Software Developer"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
@@ -184,4 +184,5 @@ form.addEventListener('submit', (e) => {
     successMessage.innerText = 'Something went wrong. Please try again later.';
     successMessage.style.color = 'red';
   });
+
 });
